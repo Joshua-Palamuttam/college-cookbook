@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>College Cookbook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/addRecipe.css" rel="stylesheet">
+    <script src="../js/addRecipe.js"></script> 
+</head>
+
+<body>
+
+    <div class="credentials">
+        <a href="account.html">My Account</a>
+        <a href="">Logout</a>
+    </div>
+
+    <h1 id="cookbookTitle">College Cookbook</h1>
+
+    <div class="menuWrapper">
+        <div id="find" class="menu-option">Find Recipes</div>
+        <div id="add" class="menu-option">Add Recipes</div>
+        <div id="favorite" class="menu-option">Favorite Recipes</div>
+        <div id="grocery" class="menu-option">My Grocery List</div>
+        <div class="addInfoWrapper">
+                <h3>Add Recipe</h3>
+                <div id="recipeName">
+                    Name of Recipe
+                    <form>
+                        <input type="text" name="search" placeholder="Enter Recipe Name">
+                      </form>
+                </div>
+                <div id="Type_of_Meal">
+                    Type of Meal
+                    <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Select Meal Type</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                </div>
+                <div id="Cost">
+                    Cost
+                    <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Select Cost</button>
+                            <div id="myDropdown" class="dropdown-content">
+                             <a href="#">Link 1</a>
+                             <a href="#">Link 2</a>
+                             <a href="#">Link 3</a>
+                            </div>
+                     </div>
+                </div>
+                <div id="prepTime">
+                    Prep Time
+                    <div class="dropdown">
+                            <button onclick="myFunction()" class="dropbtn">Select Prep Time</button>
+                            <div id="myDropdown" class="dropdown-content">
+                              <a href="#">Link 1</a>
+                              <a href="#">Link 2</a>
+                              <a href="#">Link 3</a>
+                            </div>
+                          </div>
+                </div>
+                <div id="cookTime">
+                        Cook Time
+                        <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Select Cook Time</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                              </div>
+                </div>
+                <div id="servingSize">
+                        Serving Size
+                        <div class="dropdown">
+                                <button onclick="myFunction()" class="dropbtn">Select Serving Size</button>
+                                <div id="myDropdown" class="dropdown-content">
+                                  <a href="#">Link 1</a>
+                                  <a href="#">Link 2</a>
+                                  <a href="#">Link 3</a>
+                                </div>
+                        </div>
+                </div>
+                <!-- <div id="Search_Button">
+                        <button type="button" onclick="alert('Functionality not added yet, sorry :(')">Search</button>
+                </div> -->
+            </div>
+            <div class="ingredientWrapper">
+                <!-- <div id="ingredient">
+                            Ingredient
+                            <form>
+                                <input type="text" name="search" placeholder="Enter an Ingredient">
+                              </form>
+                              <div class="buttonAlign"><button class="addButton" id="addIngredientButton">Add</button></div>
+                </div> -->
+  
+                        <form>
+                            Ingredients<input type="text" id="ingredientNameInput"><br>
+                        </form>
+                        <div id="listOfIngredients">
+                            <ul id="ingredientsList">
+
+                            </ul>
+                        </div>
+                        <button id="addIngredient">Add Ingredient</button>
+                  
+               
+            </div>
+            <div class="directionsWrapper">
+                    <form>
+                            Directions<input type="text" id="directionsInput"><br>
+                        </form>
+                        <div id="listOfDirections">
+                            <ol id="directionsList">
+
+                            </ol>
+                        </div>
+                        <button id="addDirection">Add Step</button>
+                </div>
+                <button>Add Recipe</button>
+           
+    </div>
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+
+</body>
+
+</html>

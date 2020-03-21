@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>College Cookbook</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="../css/findRecipe.css" rel="stylesheet">
+    <script src="../js/findRecipe.js"> 
+    </script>
+</head>
+
+<body>
+
+    <div class="credentials">
+        <a href="account.html">My Account</a>
+        <a href="">Logout</a>
+    </div>
+
+    <h1 id="cookbookTitle">College Cookbook</h1>
+
+    <div class="menuWrapper">
+        <div id="find" class="menu-option">Find Recipes</div>
+        <div id="add" class="menu-option">Add Recipes</div>
+        <div id="favorite" class="menu-option">Favorite Recipes</div>
+        <div id="grocery" class="menu-option">My Grocery List</div>
+        <div class="SearchWrapper">
+            
+            <div id="Keywords">
+                Keywords
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                  </form>
+            </div>
+            <div id="Ingredients">
+                Ingredients
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                  </form>
+            </div>
+            <div id="User">
+                User
+                <form>
+                    <input type="text" name="search" placeholder="Search..">
+                  </form>
+            </div>
+
+            <div id="Cooking-Utensils">
+                    Cooking Utensils
+                    <form>
+                        <input type="text" name="search" placeholder="Search..">
+                      </form>
+            </div>
+
+        </div>
+<div class = "Dropdown-portion"> 
+        <h2>Recipes Search</h2>
+            <div id="Type_of_Meal">
+                Type of Meal
+                <div class="dropdown">
+                        <button onclick="showDropdownMeal()" class="dropbtn">All Meals</button>
+                        <div id="myDropdown-meal" class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+            </div>
+    
+
+            <div id="Cost">
+                Cost
+                <div class="dropdown">
+                        <button onclick="showDropdownCost()" class="dropbtn">All Costs</button>
+                        <div id="myDropdown-cost" class="dropdown-content">
+                         <a href="#">Link 1</a>
+                         <a href="#">Link 2</a>
+                         <a href="#">Link 3</a>
+                        </div>
+                 </div>
+            </div>
+
+            <div id="Time_constraints">
+                Time Constraints
+                <div class="dropdown">
+                        <button onclick="showDropdownTime()" class="dropbtn">All Times</button>
+                        <div id="myDropdown-time" class="dropdown-content">
+                          <a href="#">Link 1</a>
+                          <a href="#">Link 2</a>
+                          <a href="#">Link 3</a>
+                        </div>
+                      </div>
+            </div>
+            <div id="Search_Button">
+                    <button type="button" onclick="alert('Functionality not added yet, sorry :(')">Search</button>
+            </div>
+        </div>
+        <!-- end of dropdown portion class -->
+        </div>
+    
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
